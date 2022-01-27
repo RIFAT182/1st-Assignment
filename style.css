@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 h1{
-    color: grey;
+    color:rgb(128, 128, 128);
     font-size: 75px;
 }
 
@@ -29,8 +29,10 @@ h1{
     padding-top: 25px;
 }
 .top-part{
+   
     display: flex;
     margin-bottom: 50px;
+    padding-left: 5%;
 }
 .half-width img{
     width: 100%;
@@ -43,6 +45,8 @@ h1{
 }
 .back{
     background-image: url(images/7.png);
+    width: 100%;
+    
     background-repeat: no-repeat;
     
 }
@@ -51,13 +55,16 @@ h1{
     margin-left: 30%;
     margin-right: 30%;
 }
+
 .one-third-width{
     width: 30%;
     margin-left: 5%;
     margin-right:5%;
     text-align: center;
+    
 
 }
+
 .bottom-part{
     display: flex;
     margin-bottom: 100px;
